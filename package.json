@@ -1,0 +1,52 @@
+{
+  "name": "chinese-css-values",
+  "version": "1.0.6",
+  "description": "chinese CSS Values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouwenbin/chinese-css-values.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "chinese",
+    "values"
+  ],
+  "author": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouwenbin/chinese-css-values/issues"
+  },
+  "homepage": "https://github.com/zhouwenbin/chinese-css-values#readme",
+  "gitHead": "c10267e9f1166548702da055adf01327126ccae1",
+  "_id": "chinese-css-values@1.0.3",
+  "_shasum": "3b1117551745b6b5c90491346c2b88ccdb692836",
+  "_from": "chinese-css-values@>=1.0.3 <2.0.0",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "zhouwenbin",
+    "email": "zwb86@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "zhouwenbin",
+      "email": "zwb86@qq.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b6f95b323f4832a8c8de1e1a90c539553cac29af",
+    "tarball": "http://registry.npmjs.org/chinese-css-values/-/chinese-css-values-1.0.3.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/chinese-css-values/-/chinese-css-values-1.0.3.tgz",
+  "readme": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png\" alt=\"china\" height=\"32px\" width=\"auto\"> chinese CSS Values\n\n> Overall CSS Values translated into chinese\n\n_Please feel free to submit a pull request if any of the words seem weird_\n\n## Usage\n\n```console\n$ npm install --save chinese-css-values\n```\n\n```js\n/**\n * Getting chinese CSS Values\n *\n * @return {object}\n */\n\nvar SECSS = require('chinese-css-values');\n```\n\n## Values\n\n* `absolute`: 绝对\n* `auto`: 自动\n* `bold`: 加粗\n* `center`: 中间\n* `fixed`: 固定\n* `flex`: 弹性\n* `hidden`: 隐藏\n* `inherit`: 继承\n* `initial`: 初始\n* `italic`: 斜体\n* `left`: 左\n* `middle`: 中央\n* `no-repeat`: 不重复\n* `none`: 无\n* `inline`: 内联\n* `inline-block`: 内联块\n* `relative`: 相对\n* `repeat-x`: 水平重复\n* `repeat-y`: 竖直重复\n* `repeat`: 重复\n* `right`: 右\n* `solid`: 实心\n* `static`: 静止\n* `unset`: 未设置\n\n#### Colors\n\n* `aliceblue`: 艾莉斯蓝\n* `antiquewhite`: 古董白\n* `aqua`: vatten\n* `aquamarine`: 碧绿\n* `beige`: 米\n* `bisque`: 素瓷\n* `blanchedalmond`: 杏仁白\n* `blueviolet`: 蓝紫\n* `burlywood`: 原木\n* `cadetblue`: 藏青\n* `chocolate`: 巧克力\n* `cornflowerblue`: 矢菊花蓝\n* `cornsilk`: 玉米穗黄\n* `crimson`: 赤红\n* `darkblue`: 深蓝\n* `darkcyan`: 深青绿\n* `darkgoldenrod`: 深金黄\n* `darkgreen`: 深绿\n* `darkgray`: 深灰\n* `darkkhaki`: 深卡其\n* `darkmagenta`: 深洋红\n* `darkolivegreen`: 深橄榄绿\n* `darkorange`: 深橙\n* `darkorchid`: 深兰花紫\n* `darkred`: 深红\n* `darksalmon`: 深橙红\n* `darkseagreen`: 深海藻绿\n* `darkslateblue`: 深青蓝\n* `darkviolet`: 深紫红\n* `deeppink`: 深粉红\n* `deepskyblue`: 深天蓝\n* `dimgrey`: 淡灰\n* `dodgerblue`: 宝蓝\n* `firebrick`: 耐火砖\n* `floralwhite`: 花白\n* `forestgreen`: 森林绿\n* `ghostwhite`: 鬼白\n* `greenyellow`: 绿黄\n* `honeydew`: 甘露\n* `hotpink`: 亮粉\n* `indianred`: 印地安红\n* `ivory`: 乳白\n* `khaki`: 黄褐\n* `lavenderblush`: 淡紫红\n* `lawngreen`: 草绿\n* `lemonchiffon`: 粉黄\n* `lightblue`: 浅蓝\n* `lightcoral`: 浅珊瑚红\n* `lightcyan`: 浅青绿\n* `lightgray`: 浅灰\n* `lightgreen`: 浅绿\n* `lightpink`: 浅粉红\n* `lightsalmon`: 橙红\n* `lightseagreen`: 海藻绿\n* `lightskyblue`: 浅天蓝\n* `lightslategray`: 浅青灰\n* `lightsteelblue`: 浅钢青\n* `lightyellow`: 浅黄\n* `limegreen`: 青\n* `linen`: 麻布\n* `maroon`: 栗\n* `midnightblue`: 黑蓝\n* `mintcream`: 薄荷乳白\n* `mistyrose`: 粉玫瑰红\n* `moccasin`: 莫卡辛\n* `navajowhite`: 印地安黄\n* `navy`: 深蓝\n* `oldlace`: 旧布黄\n* `olivedrab`: 淡绿褐\n* `orangered`: 橙红\n* `orchid`: 兰花\n* `palegoldenrod`: 淡金黄\n* `palegreen`: 淡绿\n* `paleturquoise`: 淡蓝绿\n* `papayawhip`: 粉木瓜橙\n* `peachpuff`: 粉桃红\n* `plum`: 李子\n* `powderblue`: 浅灰蓝\n* `purple`: 紫\n* `rosybrown`: 玫瑰褐\n* `royalblue`: 宝蓝\n* `saddlebrown`: 马鞍棕\n* `salmon`: 三文鱼\n* `sandybrown`: 黄褐\n* `seagreen`: 海藻绿\n* `seashell`: 贝壳\n* `sienna`: 赭\n* `silver`: 银\n* `slateblue`: 青蓝\n* `slategray`: 青灰\n* `snow`: 雪白\n* `springgreen`: 嫩绿\n* `steelblue`: 钢青\n* `tan`: 黄褐\n* `teal`: 凫蓝\n* `thistle`: 蓟\n* `tomato`: 番茄\n* `turquoise`: 绿松石\n* `violet`: 紫\n* `wheat`: 小麦\n* `whitesmoke`: 白烟\n* `yellowgreen`: 黄绿\n* `azure`: 天蓝\n* `black`: 黑\n* `blue`: 蓝\n* `coral`: 珊瑚\n* `cyan`: 青\n* `gray`: 灰\n* `green`: 绿\n* `pink`: 粉红\n* `lavender`: 薰衣草\n* `lime`: 酸橙\n* `orange`: 桔黄\n* `red`: 红\n* `white`: 白\n* `yellow`: 黄'\n\n### Licence\n\n[MIT](licence) © zhouwenbin\n",
+  "readmeFilename": "README.md"
+}
